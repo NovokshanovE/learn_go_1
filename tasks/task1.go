@@ -24,10 +24,17 @@ func NewAction() *Action {
 		C:  12,
 		B:  132.829,
 		Id: 17,
+		// Human: Human{
+		// 	A:  "xexe",
+		// 	B:  "ewle;",
+		// 	Id: 78,
+		// },
 	}
 }
 
 func task1() {
 	A := NewAction()
 	A.smthPrint()
+	fmt.Println(A.B)
+	fmt.Println(A)
 }
