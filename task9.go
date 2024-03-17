@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func main() {
+func task9() {
 	data := []int{1, 2, 3, 4, 5} // Исходные данные
 
 	ch1 := make(chan int) // Первый канал

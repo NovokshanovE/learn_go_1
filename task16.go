@@ -46,7 +46,7 @@ func printArray(arr []int) {
 	fmt.Println("")
 }
 
-func main() {
+func task16() {
 	var arr = []int{15, 3, 12, 6, -9, 9, 0}
 
 	fmt.Print("Before Sorting: ")

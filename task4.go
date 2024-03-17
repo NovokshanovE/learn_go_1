@@ -15,7 +15,7 @@ func worker(id int, data <-chan int, wg *sync.WaitGroup) {
 	}
 }
 
-func main() {
+func task4() {
 	workers := 5 // количество воркеров
 
 	data := make(chan int)

@@ -41,7 +41,7 @@ func reverseWords(s string) string {
 	return string(str)
 }
 
-func main() {
+func task20() {
 	fmt.Println(reverseWords("abs dfret rtere"))
 
 }

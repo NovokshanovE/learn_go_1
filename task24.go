@@ -17,7 +17,7 @@ func distance(p1, p2 *Point) float64 {
 	return math.Sqrt(math.Pow(p2.x-p1.x, 2) + math.Pow(p2.y-p1.y, 2))
 }
 
-func main() {
+func task24() {
 	p1 := NewPoint(1, 2)
 	p2 := NewPoint(4, 6)
 

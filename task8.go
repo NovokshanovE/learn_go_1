@@ -10,7 +10,7 @@ func setBitByPos(number int64, pos int64, set int64) int64 {
 }
 
 // 0100
-func main() {
+func task8() {
 
 	fmt.Println(setBitByPos(13, 2, 1)) //1101 -> 1101 - 13
 	fmt.Println(setBitByPos(13, 2, 0)) //1101 -> 1001 - 9

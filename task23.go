@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func task23() {
 	users := []string{"Bob", "Alice", "Kate", "Sam", "Tom", "Paul", "Mike", "Robert"}
 	//удаляем 4-й элемент
 	var n = 3

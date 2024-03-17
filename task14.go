@@ -5,7 +5,7 @@ import (
 	"reflect"
 )
 
-func main() {
+func task14() {
 	variables := []interface{}{123, "Hello, World!", true, make(chan int)}
 
 	for _, variable := range variables {

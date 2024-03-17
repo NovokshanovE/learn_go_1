@@ -37,7 +37,7 @@ func (a *MediaPlayerAdapter) playAudio() {
 	a.advancedPlayer.playVideo()
 }
 
-func main() {
+func task21() {
 	musicPlayer := &MusicPlayer{}
 	musicPlayer.playAudio()
 

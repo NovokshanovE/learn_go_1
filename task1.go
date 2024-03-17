@@ -27,7 +27,7 @@ func NewAction() *Action {
 	}
 }
 
-func main() {
+func task1() {
 	A := NewAction()
 	A.smthPrint()
 }
